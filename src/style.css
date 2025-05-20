@@ -155,8 +155,16 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: auto;       /* Optional */
+  width: 150px;       /* Increase this as needed */
+  max-width: none;    /* Remove constraints if any */
+}
+.navbar-brand:hover {
+  color: #c95bf5 !important;
+  text-decoration: none !important;
+}
+.navbar-brand:focus {
+  outline: none !important;
 }
 
 .navbar-nav .nav-link {
